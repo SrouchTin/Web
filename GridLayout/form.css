@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+:root{
+    --purple-color:#5770A6;
+    --blue-color:#6DB7EF;
+    --orange-color:#E06555;
+    --main-font:"Roboto";
+}
+.container{
+    width: 65%;
+    height: 85vh;
+    background-color: gainsboro;
+    margin: 20px auto;
+    padding: 20px 30px;
+}
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.container .form-content{
+    width: 100%;
+    height: 80%;
+    /* background-color: gray; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-content .icon{
+    width: 48%;
+    height: 90%;
+    /* background-color: green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-content .login{
+    width: 48%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.form-content .option{
+    width: 0.5%;
+    height: 90%;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+}
+.form-content .icon .btn{
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+}
+.icon .facebook{
+    background-color: var(--purple-color);
+    display: flex;
+    font-size: 32px;
+    padding: 35px 10px;
+    gap: 15px;
+    color: white;
+}
+.icon .twitter{
+    background-color: var(--blue-color);
+    display: flex;
+    font-size: 32px;
+    padding: 35px 10px;
+    gap: 15px;
+    color: white;
+}
+.icon .goole{
+    background-color: var(--orange-color);
+    display: flex;
+    font-size: 32px;
+    padding: 35px 10px;
+    gap: 15px;
+    color: white;
+}
+.form-content .login .log{
+    width: 90%;
+    height: 30%;
+}
+.login .username{
+    background-color: white;
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+.login .password{
+    background-color: white;
+    padding: 20px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+.login .join{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+.container .footer{
+    width: 91%;
+    height: 10%;
+    background-color: blue;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.footer #p1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.footer #p2{
+    position: absolute;
+    left: 70%;
+    top: 20px;
+}
+.container .or{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 55%;
+    left: 48.7%;
+}
+
