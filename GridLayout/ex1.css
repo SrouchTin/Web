@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 70%;
+   height: 80vh;
+   /* background-color: red; */
+   background-color: gray;
+   margin: 20px auto;
+   padding: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.container .form_container{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form_container .social,.form{
+    width: 48%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form_container .option{
+    width: 0.8%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.form_container .social .btn{
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+}
+.social .facebook{
+    background-color: red;
+}
+.social .twitter{
+    background-color: orange;
+}
+.social .goole{
+    background-color: aqua;
+}
+.form_container .form .btn-form{
+    width: 100%;
+    height: 30%;
+}
+.form .username,.password{
+    background-color: white;
+}
+.form .login{
+    background-color: green;
+}
+.container .footer{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    /* display: flex; */
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.footer .p1{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.footer .p2{
+    text-align: end;
+    position: relative;
+    bottom: 16px;
+    right: 50px;
+}
